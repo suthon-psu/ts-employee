@@ -1,11 +1,11 @@
-import { Employee } from "./Employee"
+import { FullTime } from "./FullTime"
 import PartTime from "./PartTime"
 
 export default class Company {
     readonly title: string
-    employees: (Employee | PartTime)[]
+    employees: (FullTime | PartTime)[]
 
-    constructor(title: string, employees: (Employee | PartTime)[]){
+    constructor(title: string, employees: (FullTime | PartTime)[]){
         this.title = title
         this.employees = employees
     }

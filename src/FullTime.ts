@@ -1,4 +1,4 @@
-export class Employee {
+export class FullTime {
     readonly name: string
     salary: number
 
