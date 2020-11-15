@@ -1,3 +1,4 @@
+import Company from "./Company"
 import { Employee } from "./Employee"
 import PartTime from "./PartTime"
 
@@ -12,7 +13,6 @@ let employees = [
     pt1
 ]
 
-let expenses = employees.reduce((total, current) => 
-    total + current.getExpense(), 0)
+let company = new Company('Bonmek', employees)
+company.calculateExpenses()
 
-console.log(`= ${expenses}`)
