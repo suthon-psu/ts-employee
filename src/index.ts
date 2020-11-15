@@ -1,5 +1,5 @@
 import Company from "./Company"
-import { FullTime } from "./FullTime"
+import FullTime from "./FullTime"
 import PartTime from "./PartTime"
 
 let pt1 = new PartTime("Facus", 500)

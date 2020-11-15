@@ -1,6 +1,6 @@
 import Worker from './Worker'
 
-export class FullTime extends Worker {
+export default class FullTime extends Worker {
     salary: number
 
     constructor(name: string, salary: number){
