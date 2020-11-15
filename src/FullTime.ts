@@ -1,9 +1,10 @@
-export class FullTime {
-    readonly name: string
+import Worker from './Worker'
+
+export class FullTime extends Worker {
     salary: number
 
     constructor(name: string, salary: number){
-        this.name = name
+        super(name)
         this.salary  = salary
     }
 
